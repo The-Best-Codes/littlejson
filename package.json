@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "module": "dist/index.js",
   "type": "module",
-  "bin": "dist/index.js",
+  "bin": {
+    "littlejson": "dist/index.js"
+  },
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --minify --packages external"
   },
