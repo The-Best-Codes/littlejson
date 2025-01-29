@@ -9,6 +9,24 @@
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --minify --packages external"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Best-Codes/littlejson.git"
+  },
+  "keywords": [
+    "json",
+    "compression",
+    "minifier",
+    "minify",
+    "msgpack",
+    "bun"
+  ],
+  "author": "The-Best-Codes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Best-Codes/littlejson/issues"
+  },
+  "homepage": "https://github.com/The-Best-Codes/littlejson#readme",
   "files": [
     "dist",
     "README.md",
