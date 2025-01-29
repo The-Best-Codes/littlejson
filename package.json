@@ -1,0 +1,21 @@
+{
+  "name": "littlejson",
+  "version": "0.0.0",
+  "module": "dist/index.js",
+  "type": "module",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --minify --packages external"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@msgpack/msgpack": "^3.0.0-beta3",
+    "commander": "^13.1.0",
+    "consola": "^3.4.0"
+  }
+}

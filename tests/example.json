@@ -1,0 +1,122 @@
+{
+  "testData": {
+    "basicTypes": {
+      "string": "This is a string",
+      "integer": 12345,
+      "float": 3.14159,
+      "booleanTrue": true,
+      "booleanFalse": false,
+      "nullValue": null
+    },
+    "arrays": {
+      "simpleArray": [1, 2, 3, 4, 5],
+      "mixedArray": [1, "two", true, null, 3.14],
+      "nestedArray": [
+        [1, 2],
+        [3, 4],
+        [5, 6]
+      ],
+      "emptyArray": []
+    },
+    "objects": {
+      "simpleObject": {
+        "name": "John Doe",
+        "age": 30,
+        "city": "New York"
+      },
+      "nestedObject": {
+        "address": {
+          "street": "123 Main St",
+          "zip": "10001"
+        },
+        "contact": {
+          "email": "john.doe@example.com",
+          "phone": "555-123-4567"
+        }
+      },
+      "emptyObject": {}
+    },
+    "complexData": {
+      "users": [
+        {
+          "id": 1,
+          "username": "user123",
+          "email": "user123@example.com",
+          "posts": [
+            {
+              "postId": 101,
+              "title": "First Post",
+              "content": "This is the content of the first post.",
+              "tags": ["first", "example"]
+            },
+            {
+              "postId": 102,
+              "title": "Second Post",
+              "content": "This is the second post.",
+              "tags": ["second", "blog"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "username": "testUser",
+          "email": "test@example.com",
+          "posts": []
+        }
+      ],
+      "products": [
+        {
+          "productId": "abc-123",
+          "name": "Awesome Widget",
+          "price": 19.99,
+          "inStock": true,
+          "variants": [
+            {
+              "size": "small",
+              "color": "red"
+            },
+            {
+              "size": "medium",
+              "color": "blue"
+            },
+            {
+              "size": "large",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "productId": "def-456",
+          "name": "Super Gizmo",
+          "price": 99.95,
+          "inStock": false,
+          "variants": []
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2024-10-27T10:00:00Z",
+        "version": "1.0"
+      }
+    },
+    "specialCases": {
+      "emptyString": "",
+      "zero": 0,
+      "negativeNumber": -5
+    },
+    "localizedStrings": {
+      "en": {
+        "greeting": "Hello",
+        "farewell": "Goodbye"
+      },
+      "fr": {
+        "greeting": "Bonjour",
+        "farewell": "Au revoir"
+      }
+    }
+  },
+  "apiInfo": {
+    "version": "v1",
+    "author": "Code Example Bot",
+    "description": "Example JSON for testing purposes."
+  }
+}
