@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { decode, encode } from "@msgpack/msgpack";
 import { program } from "commander";
@@ -29,7 +30,7 @@ async function getFileSize(filePath: string): Promise<number> {
 async function compressFile(inputFile: string, outputFile: string | undefined) {
   try {
     const inputSize = await getFileSize(inputFile);
-    consola.debug(`ℹ Compressing ${inputFile}...`);
+    consola.debug(`Compressing ${inputFile}...`);
 
     const data = await readFile(inputFile, "utf-8");
     const json = JSON.parse(data);
@@ -64,7 +65,7 @@ async function decompressFile(
 ) {
   try {
     const inputSize = await getFileSize(inputFile);
-    consola.debug(`ℹ Decompressing ${inputFile}...`);
+    consola.debug(`Decompressing ${inputFile}...`);
 
     const data = await readFile(inputFile);
     const decompressed = decode(data);
