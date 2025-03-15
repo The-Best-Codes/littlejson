@@ -92,6 +92,7 @@ async function decompressFile(
 
 program
   .command("compress")
+  .alias("c")
   .argument("<input-file>", "Path to the JSON input file")
   .argument("[output-file]", "Path to the output file")
   .action(async (inputFile, outputFile) => {
@@ -100,6 +101,7 @@ program
 
 program
   .command("decompress")
+  .alias("d")
   .argument("<input-file>", "Path to the ljson input file")
   .argument("[output-file]", "Path to the output file")
   .action(async (inputFile, outputFile) => {
