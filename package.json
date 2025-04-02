@@ -37,11 +37,11 @@
     "LICENSE"
   ],
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
-    "@types/bun": "^1.2.5",
-    "eslint": "^9.22.0",
+    "@eslint/js": "^9.23.0",
+    "@types/bun": "^1.2.8",
+    "eslint": "^9.23.0",
     "globals": "^16.0.0",
-    "typescript-eslint": "^8.26.1"
+    "typescript-eslint": "^8.29.0"
   },
   "peerDependencies": {
     "typescript": "^5.8.2"
@@ -49,6 +49,6 @@
   "dependencies": {
     "@msgpack/msgpack": "^3.1.1",
     "commander": "^13.1.0",
-    "consola": "^3.4.0"
+    "consola": "^3.4.2"
   }
 }
